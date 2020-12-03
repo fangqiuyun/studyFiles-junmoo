@@ -9,7 +9,7 @@
 ### git的全局配置
     - 第一次安装成功以后，我们需要在全局环境下配置基本信息
     - git config --global -l(--list) :查看全局的配置信息
-
+    
     - 配置名字有邮箱
     - git config --global user.name 'xxx'
     - git config --global user.email 'xxx@xxxx'
@@ -37,7 +37,7 @@
 ==================================================================
 ### gitHub
     > https://github.com/
-
+    
     是一个开源的代码管理平台，用户注册之后，进行登录，然后就可以创建远程仓库了，
 1、点击右上角邮箱的下拉三角 -->Settings
     Profile(修改自己的基本信息)
@@ -49,7 +49,7 @@
         peivate：私有的项目
     
     README：勾选上就会默认创建一个描述项目的md文件，在这里边你可以写一些你的整个项目的描述
-
+    
     最后点击 create repository 就会生成一个项目
 
 3、把本地仓库的代码提交到远程仓库
@@ -83,15 +83,25 @@
 
 ### 我的补充
    - git branch  查看分支
+
    - git branch <name>   创建分支
+
    - git switch <name>   切换分支(或者 git checkout <name> )
+
    - git switch -c <name>   创建+切换 分支 ( 或者 git checkoout -b <name> )
+
    - git merge <name>   合并某分支到当前分支
+
    - git branch -d <name>   删除分支
+
    - $ git pull origin master:master    后面是本地分支名
 
+   - $  git push --set-upstream origin master   push到分支master上
 
-    
+     
+
+
+​    
 
 
 
