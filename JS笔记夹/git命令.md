@@ -98,13 +98,6 @@
 
    - $  git push --set-upstream origin master   push到分支master上
 
-     
-
-
-​    
-
-
-
-
-
-
+### 冲突解决
+   - ! [rejected]        master -> master (non-fast-forward) 
+   `git pull origin master --allow-unrelated-histories`
